@@ -1,0 +1,386 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    text-decoration: none;
+    font-family: arial;
+}
+
+
+.marca {
+    float: left;
+    margin-left: 300px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.cabecalho {
+    font-size: 18px;
+    color: white;
+    height: auto;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.cabecalho a {
+    color: white;
+    text-decoration: none;
+}
+
+.cabecalho ul {
+    text-align: right;
+}
+
+.menu {
+    margin-right: 200px;
+}
+
+.menu li {
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: 600;
+
+}
+
+.texto {
+    margin-top: 25%;
+    color: white;
+    margin-left: 350px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.texto p {
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.start {
+    margin-top: 10px;
+    background: blue;
+    border-radius: 6px;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+}
+
+.imagem1 img {
+    height: 450px;
+    height: 450px;
+    margin-left: 47%;
+    margin-top: -360px;
+}
+
+.ativo {
+    background: blue;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.texto2 {
+    margin-top: 200px;
+}
+
+.texto2 p {
+    color: white;
+    text-align: center;
+}
+
+.imagem2 {
+    margin: 0 auto;
+    text-align: center;
+    margin-left: -75px;
+}
+
+.imagem2 img {
+    height: 65px;
+    display: inline-block;
+    margin-left: 85px;
+    margin-top: 25px;
+}
+
+.texto3 {
+    color: white;
+    margin-top: 150px;
+    text-align: left;
+    width: 39%;
+    display: inline-block;
+}
+
+.texto3 h2 {
+    color: rgb(116, 67, 207);
+}
+
+.texto3 p {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.texto4 {
+    text-align: right;
+}
+.game {
+    width: 49%;
+    display: inline-block;
+    color: white;
+    margin-top: 35px;
+}
+
+.game h2 {
+    margin-top: 10px;
+}
+
+.direito {
+    width: 60%;
+    display: inline-block;
+}
+
+.final {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 245px;
+}
+
+.introducao {
+    color: white;
+    margin-top: 160px;
+    font-weight: 700;
+}
+
+.introducao h2 {
+    color: rgb(116, 67, 207);
+}
+
+.figura {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+.figuras {
+    padding: 30px 300px;
+}
+
+.fig {
+    display: inline-block;
+    width: 30%;
+}
+
+.fig i {
+    float: right;
+    font-size: 35px;
+    color: rgb(185, 197, 18);
+    margin-left: 25px;
+}
+
+.figuras img{
+    height: 214px;
+    display: inline-block;
+    /* margin-left: 85px; */
+    /* margin-top: 25px; */
+    margin-left: 20px;
+    border-radius: 20px
+}
+
+.figuras h2 {
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+    display: inline-block;
+    
+}
+
+.figuras p {
+    text-align: left;
+    margin-left: 35px;
+    color: gray;
+}
+
+.intro {
+    margin-left: 250px;
+    margin-top: 200px;
+    width: 70%;
+}
+
+.intro h2 {
+    color: rgb(116, 67, 207);
+}
+
+
+.intro h1 {
+    color: white;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.intro i {
+    text-align: right;
+    margin-left: 700px;
+    color: rgb(185, 197, 18);
+}
+
+.comentarios {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 125px;
+}
+.comentarios img {
+    width: 15%;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.usuario {
+    color: white;
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+}
+
+.usuario h2, h3 {
+    text-align: left;
+    display: inline-block;
+}
+
+.usuario p {
+    text-align: left;
+}
+
+.usuario i {
+    color: rgb(185, 156, 24);
+    font-size: 13px;
+}
+
+.estrelas {
+    float: right;
+    margin-right: 40px;
+    margin-top: 25px
+}
+
+.psub {
+    font-size: 10px;
+    color: gray !important;
+}
+
+.see {
+    color: rgb(116, 67, 207);
+    margin-top: 80px;
+}
+
+i {
+    color: rgb(116, 67, 207);
+    font-size: 40px;
+}
+
+.nave i {
+    color: red;
+}
+
+.cor i {
+    color: darkgreen;
+}
+
+.cor1 i {
+    color: yellow;
+}
+
+.team {
+       /* text-align: left; */
+       width: 50%;
+       margin: 0 auto;
+       margin-top: 100px;
+       align-items: center;
+       align-content: center;
+}
+
+.team1 {
+    margin-left: 25px;
+}
+
+
+.teamimg {
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+}
+
+.team h2 {
+    color: rgb(116, 67, 207);
+}
+
+.team h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.team p {
+    color: gray !important;
+}
+
+.teamimg img{
+    border-radius: 30px;
+    width: 300px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.view p {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(116, 67, 207) !important;
+    margin-bottom: 100px;
+}
+
+.rodapes {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.rodesquerda {
+    color: white !important;
+    text-align: left;
+    padding: 10px;
+    width: 30%;
+    margin-left: 180px;
+}
+
+.icons i {
+    color: rgb(172, 165, 165);
+    margin: 25px;
+    font-size: 25px;
+
+}
+
+.rodireita {
+    color: white;
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    justify-content: left;
+    width: 70%;
+    line-height: 25px;
+}
+.rod {
+    margin: 0px 50px;
+}
+
+.rod h1 {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contactus.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav>
+            <ul>
+                <a href="#" class="marca">play...</a>
+                <div class="menu">
+                    <a href="index"><li>Home</li></a>
+                    <a href="services"><li>Services</li></a>
+                    <a href="pricing"><li>Pricing</li></a>
+                    <a href="about"><li>About</li></a>
+                    <a href="contactus"><li class="ativo">Contactus</li></a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contato">
+        <div class="esquerda">
+            <h1>Centro de Formação Profissional <br> Gustavo Paiva (Senai - Poço)</h1>
+            <p>R. Pedro Américano, 18-Poço, Maceió-AL</p>
+            <p>(82)3223-22005</p>
+            <p>contato@senai.com</p>
+        </div>
+        <div class="direita">
+            <form id="contact" class="contact">
+                <h2>Entre em contato conosco</h2>
+                <div class="nomes">
+                    <label for="Nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Nome">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" id="sobrenome" name="sobrenome" required placeholder="Sobrenome">
+                </div>
+                <div class="contatos">
+                    <label for="Email">Email</label>
+                    <input type="text" id="email" name="email" required placeholder="Email">
+                    <label for="Telefone">Telefone</label>
+                    <input type="text" id="telefone" name="telefone" required placeholder="Telefone">
+                </div>
+                <div class="mensagens">
+                    <label for="Mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" required placeholder=""></textarea>
+                </div>
+                <input type="submit" name="enviar" class="enviar" value="Enviar">
+            </form>
+        </div>
+    </div>
